@@ -16,6 +16,7 @@ public class NewClass16
     {
         if(num==0||num==1)
         {
+            System.out.println("false");
             return false;
         }
         if(num==2)
@@ -26,9 +27,12 @@ public class NewClass16
         {
             if(num%i==0)
             {
+                System.out.println("false");
                 return false;
+                
             }
         }
+        System.out.println("true---");
         return true;
     }
     
