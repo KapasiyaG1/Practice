@@ -38,7 +38,7 @@ class NewClass21
      
     public static void main(String[] args) 
     {
-      Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter the size of first Array");
         int size1 = scan.nextInt();
         System.out.println("Enter elements:");
